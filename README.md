@@ -46,7 +46,7 @@
 |---|---|---|---|
 | 01 | Tool Calling 入门 | 大模型调用 Python 函数 | 已完成 |
 | 02 | 多工具 Agent | 工具选择与执行循环 | 已完成 |
-| 03 | LangGraph 基础 | State、Node、Edge、条件路由 | 📅 计划中 |
+| 03 | LangGraph 基础 | State、Node、Edge、条件路由 | 已完成 |
 | 04 | RAG 知识库 Agent | Embedding、向量检索、Qdrant | 📅 计划中 |
 | 05 | SQL Agent | 自然语言查询数据库 | 📅 计划中 |
 | 06 | FastAPI 部署 | RESTful API、接口测试与服务部署 | 📅 计划中 |

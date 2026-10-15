@@ -1,4 +1,4 @@
-# 第四课：RAG 知识库 Agent
+# 第五课：RAG 知识库 Agent
 
 本课对应课程表中的 **04 | RAG 知识库 Agent | Embedding、向量检索、Qdrant**。
 

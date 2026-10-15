@@ -1,0 +1,6 @@
+qdrant-client>=1.12,<2.0
+fastembed>=0.7,<1.0
+langgraph>=1.0,<2.0
+langchain-openai>=1.0,<2.0
+python-dotenv>=1.0,<2.0
+httpx[socks]>=0.28,<1.0

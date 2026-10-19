@@ -1,0 +1,42 @@
+@baseUrl = http://127.0.0.1:8000
+
+### 1. Root endpoint
+GET {{baseUrl}}/
+
+### 2. Health check
+GET {{baseUrl}}/api/v1/health
+
+### 3. Create a task
+# @name createTask
+POST {{baseUrl}}/api/v1/tasks
+Content-Type: application/json
+
+{
+  "title": "完成第六课",
+  "description": "学习 FastAPI、接口测试与部署"
+}
+
+### 4. List tasks
+GET {{baseUrl}}/api/v1/tasks
+
+### 5. Get the task created above
+GET {{baseUrl}}/api/v1/tasks/{{createTask.response.body.id}}
+
+### 6. Partially update the task
+PATCH {{baseUrl}}/api/v1/tasks/{{createTask.response.body.id}}
+Content-Type: application/json
+
+{
+  "completed": true
+}
+
+### 7. Send a message to the demo Agent / DeepSeek
+POST {{baseUrl}}/api/v1/chat
+Content-Type: application/json
+
+{
+  "message": "请用三点解释 RESTful API"
+}
+
+### 8. Delete the task (run after the other task requests)
+DELETE {{baseUrl}}/api/v1/tasks/{{createTask.response.body.id}}

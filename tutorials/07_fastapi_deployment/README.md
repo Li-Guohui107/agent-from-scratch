@@ -163,12 +163,3 @@ docker run --rm -p 8000:8000 --env-file .env fastapi-agent-api
 - [ ] 能在云平台设置启动命令，并验证健康检查接口。
 - [ ] 知道何时需要把内存数据替换成数据库。
 
-## 课程索引更新建议
-
-如果仓库根目录的 `README.md` 有课程表，可以增加一行：
-
-```markdown
-| 06 | FastAPI 部署 | RESTful API、接口测试与服务部署 | ✅ 已完成 |
-```
-
-建议提交信息：`feat: add lesson 06 FastAPI deployment and API tests`

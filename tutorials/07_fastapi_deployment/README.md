@@ -1,4 +1,4 @@
-# 第 06 课：FastAPI 部署——RESTful API、接口测试与服务部署
+# 第 07 课：FastAPI 部署——RESTful API、接口测试与服务部署
 
 本课把前面学过的 Agent 能力包装成一个可以通过 HTTP 调用的服务，并完成接口测试与部署准备。代码默认可以在**没有大模型 API Key** 的情况下运行；配置 DeepSeek Key 后，`/api/v1/chat` 会调用真实模型。
 

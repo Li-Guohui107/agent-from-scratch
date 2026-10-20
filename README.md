@@ -48,8 +48,8 @@
 | 02 | 多工具 Agent | 工具选择与执行循环 | 已完成 |
 | 03 | LangGraph 基础 | State、Node、Edge、条件路由 | 已完成 |
 | 04 | RAG 知识库 Agent | Embedding、向量检索、Qdrant | 已完成 |
-| 05 | SQL Agent | 自然语言查询数据库 | 📅 计划中 |
-| 06 | FastAPI 部署 | RESTful API、接口测试与服务部署 | 📅 计划中 |
+| 05 | SQL Agent | 自然语言查询数据库 | 已完成 |
+| 06 | FastAPI 部署 | RESTful API、接口测试与服务部署 | 已完成 |
 
 > 项目将根据实际开发进度持续更新。标记为计划中的功能尚未实现。
 
